@@ -12,7 +12,8 @@
         type="date"
         placeholder="Pick a day"
         :size="size"
-      />
+        :prefix-icon="null"
+      ></el-date-picker>
     </div>
     <div class="block">
       <span class="demonstration">Picker with quick options</span>
